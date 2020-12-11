@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #f8f9fa;
+
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+ main h2{
+    display: block;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: calc(1.325rem + .9vw);
+    line-height: 1.2px;
+}
+
+ main p{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: 'Roboto';
+    text-align: center;
+}
