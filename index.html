@@ -13,7 +13,76 @@
     <img src="./bootstrap-logo.svg" width="72" height="57" >
     <h2>Checkout form</h2>
     <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-   
+   <div class="main-div">
+       <div class="input-billing">
+           <h4>Billing address</h4>
+           <form action="./index.html">
+<article>
+       <section class="fname">
+           <label for="fname">First name</label>
+           <input type="text" id="fname">
+       </section>
+
+       <section class="lname">
+           <label for="lname">Last name</label>
+           <input type="text" id="lname" name="lname">
+      </section>
+
+      <section class="uname">
+           <label for="uname">Username</label>
+           <div>
+               <span>@</span>
+               <input type="text" id="uname" placeholder="Username">
+           </div>
+      </section>
+    
+
+      <section class="email">
+             <label for="email">E-mail (optional)</label>
+             <input type="text" id="email" placeholder="you@example.com">
+      </section>
+
+
+      <section class="address">
+          <label for="address">Address</label>
+          <input type="text" id="address" placeholder="1234 Main St">
+      </section>
+
+      <section class="address2">
+          <label for="address2">Address2 (optional)</label>
+          <input type="text" id="address2" placeholder="apartment or suite">
+      </section>
+
+      <section class="country">
+          <label for="country">Country</label>
+          <select name="country" id="country">
+              <option value="choose">Choose...</option>
+              <option value="us">United States</option>
+          </select>
+      </section>
+
+      <section class="state">
+          <label for="state">State</label>
+          <select name="state" id="state">
+              <option value="choose">Choose...</option>
+              <option value="clf">Colifornia</option>
+          </select>
+      </section>
+
+      <section>
+              <label for="zip">Zip</label>
+              <input type="text" id="zip">
+      </section>
+
+</article>
+<hr>
+
+
+
+</form>
+</div>
+      
+   </div>
     </main>
 </div>
 </body>
